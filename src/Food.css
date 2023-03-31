@@ -1,0 +1,36 @@
+.foodmenu {
+    /* display: block; */
+    width: 390px;
+    font-size: 20px;
+    position: sticky;
+    height: 500px;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    padding: 20px;
+}
+.foodmenu button{
+    display: block;
+    padding: 2px 4px 2px 12px;
+    width: 390px;
+    text-align: left;
+}
+.foodmenu :hover {
+    background-color: rgb(159, 195, 245);
+    color: rgb(90, 60, 5);
+    border-left: 6px solid sienna;
+    /* width: 390px; */
+}
+.foodmenu :active{
+    background-color: bisque;
+    border-left: 6px solid sienna;
+
+}
+.foodmenu :focus{
+    background-color: bisque;
+    border-left: 6px solid sienna;
+
+}
+
+

@@ -1,5 +1,6 @@
 import React from "react";
 import { useCart } from "react-use-cart";
+import { Link } from "react-router-dom";
 
 
 const Cart = () => {
@@ -14,10 +15,10 @@ const Cart = () => {
     emptyCart,
   } = useCart();
 
-  alert( cartTotal)
 
   if (isEmpty) return <h1 className="text-center">your cart is Empty</h1>;
   return (
+    <div>
     <section className="py-4 container">
       <div className="row justify-content-center">
         <div className="col-12">
@@ -78,7 +79,11 @@ const Cart = () => {
         </div>
       </div>
     </section>
+    <Link className="text-2xl text-black border-2 border-orange-700 no-underline" to='/bill'>Contiuse</Link>
+    </div>
+    
   );
+
 };
 
 export default Cart;

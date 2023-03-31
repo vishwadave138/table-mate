@@ -6,7 +6,8 @@ const Itemcard = (props) => {
   const { addItem } = useCart();
   
   return (
-    <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4">
+   
+    <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4 ">
       <div class="card p-0 overflow-hidden h-100 shadow hover:bg-gray-800 hover:text-white  ">
         <img
           src={props.img}
@@ -22,7 +23,9 @@ const Itemcard = (props) => {
           </button>
         </div>
       </div>
+    
     </div>
+    
   );
 };
 

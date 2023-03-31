@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
 import { useCart } from "react-use-cart";
 // import Slider from "./Slider";
+// import Itemcard from "./Itemcard";
 
 export default function Foodmenu() {
   const [img, setImg] = useState(Foodimages);
@@ -136,6 +137,7 @@ export default function Foodmenu() {
 
     setImg(finalData);
   };
+  
   return (
     <div>
       <div class=" ">
@@ -179,6 +181,8 @@ export default function Foodmenu() {
         </div>
         {/* <Slider /> */}
 
+      
+      
         <div class="grid gap-4 grid-cols-3 grid-rows-3 ">
           {img.map((value) => {
             return (
