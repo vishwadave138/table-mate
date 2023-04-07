@@ -10,8 +10,7 @@ import Slider from "./Slider";
 import Bill from "./Bill";
 // import Table from "./Table";
 import Post1 from "./Post1";
-// import Mango from "./Mango";
-import Hotel from "./Hotel";
+import Mango from "./Mango";
 import Fill from "./Fill";
 import Gallerym from "./Gallerym";
 
@@ -22,8 +21,8 @@ function App() {
       <Router>
         <Navbar />
         {/* <Slider/> */}
-        <Hotel/>
-        {/* <Mango/> */}
+        <Mango/>
+       
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -33,7 +32,7 @@ function App() {
           <Route path="/bill" element={<Bill/>} />
           <Route path="/post1" element={<Post1/>} />
           <Route path="/fill" element={<Fill/>} />
-          <Route path="/hotel" element={<Hotel/>} />
+          <Route path="/mango" element={<Mango/>} />
           <Route path="/foodmenu" element={<Foodmenu/>} />
           <Route path="/gallerym" element={<Gallerym/>} />
           <Route path="/slider" element={<Slider/>} />
