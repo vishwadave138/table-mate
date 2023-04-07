@@ -91,7 +91,7 @@ const Foodimages = [
         pic: crostini,
         name:"Crostini Al Italiana",
         decrip:"Italian open toasties with an assortment of toppings(8 pcs, 300gm)",
-        price:'₹ 565/-',
+        price:565,
         // button:"+ Add Item",
       },
       {
@@ -100,7 +100,7 @@ const Foodimages = [
         pic: nuttyavocado,
         name:"Nutty Avocado Dynamite",
         decrip:"Artisan bread topped with feta, avocado, scallions, peppers, herbs (8 pcs, 300gm)",
-        price:'₹ 650/-',
+        price:565,
         // button:"+ Add Item",
       },
       {
@@ -109,7 +109,7 @@ const Foodimages = [
         pic: mediterranean,
         name:"Mediterranean Bruscetta",
         decrip:"Brown bread topped with hummus, basil, charred-grilled tomatoes(8 pcs, 300gm)",
-        price:'₹ 490/-',
+        price:565,
         // button:"+ Add Item",
       },
       {
@@ -118,7 +118,7 @@ const Foodimages = [
         pic: farmers,
         name:"Farmers Bread",
         decrip:"Wood fired garlic (430 gm)/ Garlic with cheese(530 gm)",
-        price:'₹ 450/-',
+        price:450,
         // button:"+ Add Item",
       },
       {
@@ -127,7 +127,7 @@ const Foodimages = [
         pic: turki,
         name:"Turkish Pide",
         decrip:"Wood-fired delicacy made with traditional turkish ingredients, turkish boat(370gm)",
-        price:'₹ 680/-',
+        price:680,
         // button:"+ Add Item",
       },
       {
@@ -136,7 +136,7 @@ const Foodimages = [
         pic: pericroquettes,
         name:"Peri-Peri cheese Croquettes",
         decrip:"spiced cheese balls with pesto & corn puree finish with potato ribbons (8 pcs, 180gm)",
-        price:'₹ 540/-',
+        price:540,
         // button:"+ Add Item",
       },
       {
@@ -145,7 +145,7 @@ const Foodimages = [
         pic: mexisalsa,
         name:"Mexican Salsa Wraps",
         decrip:"Refried beans & yellow cheese stuffed roomali(8 pcs, 280gm)",
-        price:'₹ 500/-',
+        price:500,
         // button:"+ Add Item",
       },
       {
@@ -154,7 +154,7 @@ const Foodimages = [
         pic: gozleme,
         name:"Gozeleme",
         decrip:"A turkish thin flat bread stuffed with ricotta cheese and spinach seasoned with exotic turkish spices (8 pcs, 280gm)",
-        price:'₹ 510/-',
+        price:510,
         // button:"+ Add Item",
       },
       {
@@ -163,7 +163,7 @@ const Foodimages = [
         pic: thai,
         name:"Thai satay- Spicy Peanut Sambal",
         decrip:"A thai appetiser of cottage cheese & spocy fragrant sauce(6 pcs, 300gm)",
-        price:'₹ 540/-',
+        price:540,
         // button:"+ Add Item",
       },
       {
@@ -172,7 +172,7 @@ const Foodimages = [
         pic: corn,
         name:"Corn Crispy",
         decrip:"Fresh crispy corn tossed with signature dressing (150gm)",
-        price:'₹ 450/-',
+        price:450,
         // button:"+ Add Item",
       },
       {
@@ -181,7 +181,7 @@ const Foodimages = [
         pic: paneerchiliy,
         name:"Paneer Chilly Dry",
         decrip:"Does it need an introdution ?(300gm)",
-        price:'₹ 525/-',
+        price:525,
         // button:"+ Add Item",
       },
       {
@@ -190,7 +190,7 @@ const Foodimages = [
         pic: mashroom,
         name:"Mediterranean Sauteed Mushrooms",
         decrip:"Rosemary, garlic & mediterranean olive oil tossed mushrooms, served with horiatiki salad(300gm)",
-        price:'₹ 750/-',
+        price:750,
         // button:"+ Add Item",
       },
       {
@@ -199,7 +199,7 @@ const Foodimages = [
         pic: cheese,
         name:"Cheese Platter",
         decrip:"A giant tray of monterey Jack cheese, english cheddar, brie cheese, sour dough bread, tartlets, crackers, roasted almonds, fruit toast, marmalade, exotic fruits (380 gm)",
-        price:'₹ 1200/-',
+        price:1200,
         // button:"+ Add Item",
       },
       {
@@ -208,7 +208,7 @@ const Foodimages = [
         pic: mezze,
         name:"Mezze Platter",
         decrip:"A glant tray of muhammara, hummus, baba-ghanoush, harissa, pita, pickled veg, cherry tomato, kalamata olives, gherkins, falafel sticks, tabbouleh, feta cheese, garlic bread (380 gm)",
-        price:'₹ 790/-',
+        price:790,
         // button:"+ Add Item",
       },
       {
@@ -217,7 +217,7 @@ const Foodimages = [
         pic: layer,
         name:"7-layer Dip",
         decrip:"A big bowl of 7-layered mexico inspired dip full of authentic sour cream, guacamole, pico-de-gallo, cheese, crispy nacho n green onion salad served with doritos, nachos, pizzeria chips, lavash & other mish mash (700 gm)",
-        price:'₹ 660/-',
+        price:660,
         // button:"+ Add Item",
       },
       {
@@ -226,7 +226,7 @@ const Foodimages = [
         pic: nachos,
         name:"Nachos Mexicano",
         decrip:"Authentic mexican style nachos loaded with refried beans, guacamole, sour cream, salsa, green onions, red-yellow-green peppers, Jalapenos, cheese all over (580 gm)",
-        price:'₹ 675/-',
+        price:675,
         // button:"+ Add Item",
       },
       {
@@ -235,7 +235,7 @@ const Foodimages = [
         pic: salad1,
         name:"Grilled Panzanella Salad",
         decrip:"Olive oil tossed salad with cherry tomatoes, croutons, zucchini, roasted peppers, cucumbers, onions, basil leaves (550 gm)",
-        price:'₹ 425/-',
+        price:425,
         // button:"+ Add Item",
       },
       {
@@ -244,7 +244,7 @@ const Foodimages = [
         pic: salad2,
         name:"Fresh Green Salad",
         decrip:"(280 gm)",
-        price:'₹ 375/-',
+        price:375,
         // button:"+ Add Item",
       },
       {
@@ -253,7 +253,7 @@ const Foodimages = [
         pic: salad3,
         name:"Crispy Roomali Roti Tossed With Kachumber Salad",
         decrip:"(480 gm)",
-        price:'₹ 375/-',
+        price:375,
         // button:"+ Add Item",
       },
       {
@@ -262,7 +262,7 @@ const Foodimages = [
         pic: papad1,
         name:"Masala Papad ",
         decrip:"roasted / fried (130gm)",
-        price:'₹ 125/-',
+        price:125,
         // button:"+ Add Item",
       },
       {
@@ -271,7 +271,7 @@ const Foodimages = [
         pic: raita,
         name:"Raita",
         decrip:"vegetable / pineapple / boondi (280 gm)",
-        price:'₹ 235/-',
+        price:235,
         // button:"+ Add Item",
       },
       {
@@ -280,7 +280,7 @@ const Foodimages = [
         pic: lassi,
         name:"Lassi",
         decrip:"sweet / salted (330 ml)",
-        price:'₹ 315/-',
+        price:315,
         // button:"+ Add Item",
       },
       {
@@ -289,7 +289,7 @@ const Foodimages = [
         pic: icetea,
         name:"Chilling Ice Tea",
         decrip:"peach / lemon ice tea (330 ml)",
-        price:'₹ 250/-',
+        price:250,
         // button:"+ Add Item",
       },
       {
@@ -298,7 +298,7 @@ const Foodimages = [
         pic: limesoda,
         name:"Fresh Lime Soda",
         decrip:"sweet/ salty (330 ml)",
-        price:'₹ 290/-',
+        price:290,
         // button:"+ Add Item",
       },
       {
@@ -307,7 +307,7 @@ const Foodimages = [
         pic: kombucha,
         name:"Kombucha",
         decrip:"(200 ml)",
-        price:'₹ 300/-',
+        price:300,
         // button:"+ Add Item",
       },
       {
@@ -316,7 +316,7 @@ const Foodimages = [
         pic: pizza1,
         name:"Pizza Burrata",
         decrip:"Burrata cheese, cocktail onions, cherry tomatoes, pesto, peperoncino sauce, neapolita crust (25 cms, 500 gm)",
-        price:'₹ 925/-',
+        price:925,
         // button:"+ Add Item",
       },
       {
@@ -325,7 +325,7 @@ const Foodimages = [
         pic: pizza2,
         name:"All in the House",
         decrip:"Pizza with all available toppings, thin crust (25cms, 400 gm)",
-        price:'₹ 825/-',
+        price:825,
         // button:"+ Add Item",
       },
       {
@@ -334,7 +334,7 @@ const Foodimages = [
         pic: pizza3,
         name:"Peri Peri Pizza",
         decrip:"Mozarella, marinara sauce topped with jalapeno, kalamata olives, tomatoes, onions, drizzled lavishly with peri peri mayo & peri perl chilli seasoning Puff crust (25 cms, 300 gm)",
-        price:'₹ 810/-',
+        price:810,
         // button:"+ Add Item",
       },
       {
@@ -343,7 +343,7 @@ const Foodimages = [
         pic: eggplant,
         name:"Italian Eggplant Parmesan",
         decrip:"A must try baked pot full of italian bliss.... grilled eggplant, mozzarella, tomato sugo, herbs, finshed with baked parmesan cheese (500 gm)",
-        price:'₹ 600/-',
+        price:600,
         // button:"+ Add Item",
       },
       {
@@ -352,7 +352,7 @@ const Foodimages = [
         pic: lasagna,
         name:"Lasagna",
         decrip:"Well set layers of thin sheets of pasta with layers of exotic cheese and veggies, served baked (500 gm)",
-        price:'₹ 600/-',
+        price:600,
         // button:"+ Add Item",
       },
       {
@@ -361,7 +361,7 @@ const Foodimages = [
         pic: turkish,
         name:"Turkish Tetrazzini",
         decrip:"Dual layer of Spaghetti in cheese sauce & vegetables in spicy concase; oven baked (400 gm)",
-        price:'₹ 600/-',
+        price:600,
         // button:"+ Add Item",
       },
       {
@@ -370,7 +370,7 @@ const Foodimages = [
         pic: vegetable,
         name:"Sauteed Vegetables",
         decrip:"Broccoll, red, yellow & green peppers, tomatoes, onions, zucchini, cauliflower, green peas tossed in olive butter, along with herbs, chillies & finished with feta cheese (300 gm)",
-        price:'₹ 550/-',
+        price:550,
         // button:"+ Add Item",
       },
       {
@@ -379,7 +379,7 @@ const Foodimages = [
         pic: malfatti,
         name:"Malfatti Peperoncini Marinara ",
         decrip:" Freshly made pasta tossed in peperoncini marinara sauce, parmesan cheese, cherry tomatoes (550 gm)",
-        price:'₹ 700/-',
+        price:700,
         // button:"+ Add Item",
       },
       {
@@ -388,7 +388,7 @@ const Foodimages = [
         pic: rigaarra,
         name:"Rigatoni Arrabiata",
         decrip:"Tubes of pasta tossed in italian tomato sauce, parmesan (550 gm)",
-        price:'₹ 625/-',
+        price:625,
         // button:"+ Add Item",
       },
       {
@@ -397,7 +397,7 @@ const Foodimages = [
         pic: spaghetti,
         name:"Spaghetti Pesto",
         decrip:"Ribbons of pasta tossed in pesto parmesan & herbs (450 gm)",
-        price:'₹ 675/-',
+        price:675,
         // button:"+ Add Item",
       },
       {
@@ -406,7 +406,7 @@ const Foodimages = [
         pic: fiesta,
         name:"Cheese Fiesta",
         decrip:"Assorted vegetables in cheese sauce served with spicy rice (700 gm)",
-        price:'₹ 750/-',
+        price:750,
         // button:"+ Add Item",
       },
       {
@@ -415,7 +415,7 @@ const Foodimages = [
         pic: revolution,
         name:"Mexican Revolution",
         decrip:"Enchiladas & mexican rice (700 gm)",
-        price:'₹ 750/-',
+        price:750,
         // button:"+ Add Item",
       },
       {
@@ -424,7 +424,7 @@ const Foodimages = [
         pic: chiang,
         name:"Chiang Mai Curried Noodles ",
         decrip:"crispy noodles & fragrant thai veg curry with soft noodles (500 gm)",
-        price:'₹ 685/-',
+        price:685,
         // button:"+ Add Item",
       },
       {
@@ -433,7 +433,7 @@ const Foodimages = [
         pic: oriental,
         name:"Oriental Grill",
         decrip:"Teriyaki cottage cheese with vegetable in fragrant chilli basil sauce (300 gm)",
-        price:'₹ 750/-',
+        price:750,
         // button:"+ Add Item",
       },
       {
@@ -442,7 +442,7 @@ const Foodimages = [
         pic: balinese,
         name:"Balinese Curry",
         decrip:"served with signature rice (500gm)",
-        price:'₹ 740/-',
+        price:740,
         // button:"+ Add Item",
       },
       {
@@ -451,7 +451,7 @@ const Foodimages = [
         pic: dum,
         name:"Dum Paneer",
         decrip:"A Dum specialty baked in flavoured tomato creamy sauce (500 gm)",
-        price:'₹ 550/-',
+        price:550,
         // button:"+ Add Item",
       },
       {
@@ -460,7 +460,7 @@ const Foodimages = [
         pic: bbq,
         name:"BBQ Paneer Masala",
         decrip:"Paneer a tossed in makhani gravy along with Jenines of white onione and capacim (500gm)",
-        price:'₹ 565/-',
+        price:565,
         // button:"+ Add Item",
       },
       {
@@ -469,7 +469,7 @@ const Foodimages = [
         pic: subz,
         name:"Subz Bahar",
         decrip:"Assorted vegetables slmmered in rich tomato gravy (500 gm)",
-        price:'₹ 550/-',
+        price:550,
         // button:"+ Add Item",
       },
       {
@@ -478,7 +478,7 @@ const Foodimages = [
         pic: kofta,
         name:"Irani Kofta",
         decrip:"Lucknowl style gravy with minced vegetable balls (500 gm)",
-        price:'₹ 565/-',
+        price:565,
         // button:"+ Add Item",
       },
       {
@@ -487,7 +487,7 @@ const Foodimages = [
         pic: kyberi,
         name:"Kyberi Kadai Paneer",
         decrip:"Finger cut paneer, capsicum & onions in mughal gravy (500 gm)",
-        price:'₹ 560/-',
+        price:560,
         // button:"+ Add Item",
       },
       {
@@ -496,7 +496,7 @@ const Foodimages = [
         pic: dal1,
         name:"Papadwali Dal",
         decrip:"pili tadka dal with papadchuri (500gm)",
-        price:'₹ 460/-',
+        price:460,
         // button:"+ Add Item",
       },
       {
@@ -505,7 +505,7 @@ const Foodimages = [
         pic: dal2,
         name:"Double Tadka dal",
         decrip:"yellow tuvar dal with spicy tadka (500 gm)",
-        price:'₹ 470/-',
+        price:470,
         // button:"+ Add Item",
       },
       {
@@ -514,7 +514,7 @@ const Foodimages = [
         pic: dal3,
         name:"Kali Dal",
         decrip:"slow cooked black lentil dal (500 gm)",
-        price:'₹ 490/-',
+        price:490,
         // button:"+ Add Item",
       },
       {
@@ -523,7 +523,7 @@ const Foodimages = [
         pic: rice1,
         name:"Jeera Ride",
         decrip:"(400 gm)",
-        price:'₹ 350/-',
+        price:350,
         // button:"+ Add Item",
       },
       {
@@ -532,7 +532,7 @@ const Foodimages = [
         pic: rice2,
         name:"Set Curd Rice",
         decrip:"a tamil staple, chilled dahi & chaval finished with tamil tadka (350 gm)",
-        price:'₹ 300/-',
+        price:300,
         // button:"+ Add Item",
       },
       {
@@ -541,7 +541,7 @@ const Foodimages = [
         pic: rice3,
         name:"Tawa Pulao",
         decrip:"mumbai style tawa pulao with rogani gravy (700 gm)",
-        price:'₹ 570/-',
+        price:570,
         // button:"+ Add Item",
       },
       {
@@ -550,7 +550,7 @@ const Foodimages = [
         pic: birayani1,
         name:"Slow Cooked Dum Biryani Pot",
         decrip:"Dum biryani delicately spiced, slow cooked for 3 hours, served with curd (900 gm) ",
-        price:'₹ 690/-',
+        price:690,
         // button:"+ Add Item",
       },
       {
@@ -559,7 +559,7 @@ const Foodimages = [
         pic: birayani2,
         name:"Hyderabadi Biryani",
         decrip:"served with mirch ka salan & curd (900 gm)",
-        price:'₹ 690/-',
+        price:690,
         // button:"+ Add Item",
       },
       {
@@ -568,7 +568,7 @@ const Foodimages = [
         pic: khichdi1,
         name:"Dal Palak Khichdi",
         decrip:"served with curd (500 gm)",
-        price:'₹ 530/-',
+        price:530,
         // button:"+ Add Item",
       },
       {
@@ -577,7 +577,7 @@ const Foodimages = [
         pic: khichadi2,
         name:"Dal Khichdi",
         decrip:"served with curd (500 gm)",
-        price:'₹ 530/-',
+        price:530,
         // button:"+ Add Item",
       },
       {
@@ -586,7 +586,7 @@ const Foodimages = [
         pic: roti,
         name:"Roti",
         decrip:"(40 gm)",
-        price:'₹ 120/-',
+        price:120,
         // button:"+ Add Item",
       },
       {
@@ -595,7 +595,7 @@ const Foodimages = [
         pic: paratha,
         name:"Lachha Paratha",
         decrip:"(75 gm)",
-        price:'₹ 190/-',
+        price:190,
         // button:"+ Add Item",
       },
       {
@@ -604,7 +604,7 @@ const Foodimages = [
         pic: naan,
         name:"Naan",
         decrip:"(70 gm)",
-        price:'₹ 175/-',
+        price:175,
         // button:"+ Add Item",
       },
       {
@@ -613,7 +613,7 @@ const Foodimages = [
         pic: kulcha,
         name:"Kulcha",
         decrip:"(75 gm)",
-        price:'₹ 260/-',
+        price:260,
         // button:"+ Add Item",
       },
       {
@@ -622,7 +622,7 @@ const Foodimages = [
         pic: swwet1,
         name:"Gulab Jamun Sundae",
         decrip:"Dryfruit gulab jamun served along with vanilla and kesar pista ice cream (250 gm)",
-        price:'₹ 500/-',
+        price:500,
         // button:"+ Add Item",
       },
       {
@@ -631,7 +631,7 @@ const Foodimages = [
         pic: sweet2,
         name:"Lachha Rabdi",
         decrip:"(150 gm)",
-        price:'₹ 300/-',
+        price:300,
         // button:"+ Add Item",
       },
       {
@@ -640,7 +640,7 @@ const Foodimages = [
         pic: sweet3,
         name:"De-constructed Laddu",
         decrip:"(300 gm)",
-        price:'₹ 320/-',
+        price:320,
         // button:"+ Add Item",
       },
       {
@@ -649,7 +649,7 @@ const Foodimages = [
         pic: dessert1,
         name:"Chocolate Garden",
         decrip:"Chocolate mousse, chocolate brownie soll, black forest, white forest, chocolate balls, chocolate sticks, 4 scoops of chocolate Ice cream, chocolate stick & chocolate sauce. (550 gm)",
-        price:'₹ 800/-',
+        price:800,
         // button:"+ Add Item",
       },
       {
@@ -658,7 +658,7 @@ const Foodimages = [
         pic: dessert2,
         name:"Latus Biscoff Cheese Cake",
         decrip:"(150gm)",
-        price:'₹ 350/-',
+        price:350,
         // button:"+ Add Item",
       },
       {
@@ -667,7 +667,7 @@ const Foodimages = [
         pic: dessert3,
         name:"At Mango Tripple Sundae",
         decrip:"Ice-creams-belgian chocolate, wild-berry cheese cake & orange tender coconut, topped with fruit cocktail, chocolate sauce, orange sauce, wafer biscuits, chocolate sticks (200 gm)",
-        price:'₹ 575/-',
+        price:575,
         // button:"+ Add Item",
       },
       {
@@ -676,7 +676,7 @@ const Foodimages = [
         pic: dessert4,
         name:"Barry Callebaut Chocolate Pyramid",
         decrip:"(150 gm)",
-        price:'₹ 375/-',
+        price:375,
         // button:"+ Add Item",
       },
 

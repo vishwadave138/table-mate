@@ -5,19 +5,25 @@ import About from "./About";
 import Contact from "./Contact";
 import Blog from "./Blog";
 import Navbar from "./Navbar";
-// import Searchbar from "./Searchbar";
-// import Foodmenu from "./Foodmenu";
+import Foodmenu from "./Foodmenu";
 import Slider from "./Slider";
 import Bill from "./Bill";
-// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-// import {CartProvider} from "react-use-cart";
+// import Table from "./Table";
+import Post1 from "./Post1";
+// import Mango from "./Mango";
+import Hotel from "./Hotel";
+import Fill from "./Fill";
+import Gallerym from "./Gallerym";
+
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
-        <Slider/>
+        {/* <Slider/> */}
+        <Hotel/>
+        {/* <Mango/> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -25,9 +31,15 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="*" element={<h1> PAGE NOT FOUND</h1>} />
           <Route path="/bill" element={<Bill/>} />
+          <Route path="/post1" element={<Post1/>} />
+          <Route path="/fill" element={<Fill/>} />
+          <Route path="/hotel" element={<Hotel/>} />
+          <Route path="/foodmenu" element={<Foodmenu/>} />
+          <Route path="/gallerym" element={<Gallerym/>} />
+          <Route path="/slider" element={<Slider/>} />
+
         </Routes>
-        {/* <Searchbar /> */}
-       
+       {/* <Table/> */}
         {/* <Foodmenu /> */}
       </Router>
     </div>

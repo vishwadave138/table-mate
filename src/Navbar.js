@@ -13,27 +13,27 @@ function Navbar() {
 
       {/* <FiMenu className="lg:hidden block h-8 w-8 cursor-pointer mt-5" onClick={() => setOpen(!open)}/> */}
 
-      <div className=" space-x-8  mr-4 mt-3 text-xl font-serif no-underline ">
-        <Link className="hover:text-rose-600  focus:text-rose-600" to="/">
+      <div className=" space-x-8  mr-4 mt-3 text-xl font-serif  ">
+        <Link className="hover:text-rose-600  focus:text-rose-600 no-underline" to="/">
           {" "}
           Home{" "}
         </Link>
         <Link
-          className="mr-5 hover:text-rose-600 focus:text-rose-600 "
+          className="mr-5 hover:text-rose-600 focus:text-rose-600 no-underline"
           to="/about"
         >
           {" "}
           About Us
         </Link>
         <Link
-          className="mr-5 hover:text-rose-600  focus:text-rose-600"
+          className="mr-5 hover:text-rose-600  focus:text-rose-600 no-underline"
           to="/Blog"
         >
           {" "}
           Blog{" "}
         </Link>
         <Link
-          className="mr-5 hover:text-rose-600  focus:text-rose-600"
+          className="mr-5 hover:text-rose-600  focus:text-rose-600 no-underline"
           to="/contact"
         >
           {" "}

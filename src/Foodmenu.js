@@ -1,15 +1,13 @@
 import React, { useState } from "react";
-import "./Foodmenu.css";
+import "./Food.css";
 import Foodimages from "./Foodimages";
-import { Link } from "react-router-dom";
-import { FaShoppingCart } from "react-icons/fa";
-import { useCart } from "react-use-cart";
+// import { useCart } from "react-use-cart";
 // import Slider from "./Slider";
 // import Itemcard from "./Itemcard";
 
 export default function Foodmenu() {
   const [img, setImg] = useState(Foodimages);
-  const { addItem } = useCart();
+  // const { addItem } = useCart();
   const allItem = () => {
     const finalData = Foodimages.filter((value) => {
       return value;
@@ -141,15 +139,9 @@ export default function Foodmenu() {
   return (
     <div>
       <div class=" ">
-        <h1 class="text-5xl italic font-bold mt-8 justify-center ">
+        <h1 class="text-3xl italic  mt-4 text-center ml-20 ">
           Food Menu
         </h1>
-      </div>
-      <div class=" text-3xl  flex justify-end mb-4">
-        <Link to="/Cart" class="mt-1 mr-10">
-          <FaShoppingCart />
-        </Link>
-        <button class="felx mr-4">Skip</button>
       </div>
 
       <div class="flex justify-between mt-4">
@@ -183,28 +175,22 @@ export default function Foodmenu() {
 
       
       
-        <div class="grid gap-4 grid-cols-3 grid-rows-3 ">
+        <div class="grid gap-2 grid-cols-5 grid-rows-3 ">
           {img.map((value) => {
             return (
               <div
                 className="ip"
-                class="border-2 border-black h-84 w-72 hover:bg-gray-800 hover:text-white"
+                class="shadow-xl shadow-gray-500 rounded-lg h-full w-40 hover:bg-gray-600 hover:text-white"
               >
                 <img
                   src={value.pic}
                   alt=" "
-                  class="h-52 w-60 rounded-2xl ml-6 mt-2"
+                  class="h-28 w-32 rounded-2xl ml-3.5 mt-2"
                 />
-                <div>
-                  <h1 class="text-2xl font-bold">{value.name}</h1>
-                  <p class="text-xs">{value.decrip}</p>
-                  <h3 class="text-xl font-bold">{value.price}</h3>
-                  <button
-                    onClick={() => addItem(value.item)}
-                    class="border border-black mb-2 w-28 text-lg text-white bg-orange-500"
-                  >
-                    Add Item
-                  </button>
+                <div className="-space-y-0.5">
+                  <h1 class="text-lg font-bold">{value.name}</h1>
+                  {/* <p class="text-xs">{value.decrip}</p> */}
+                  <h3 class="text-lg font-bold">₹ {value.price}/-</h3>
                 </div>
               </div>
             );

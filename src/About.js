@@ -15,6 +15,7 @@ import p1 from './Image/p1.jpg';
 import hotel from './Image/hotel.jpg';
 import ffood from './Image/ffood.jpg';
 import party from './Image/party.jpg';
+import abo from './Image/abo.jpg';
 
 
 export default function About() {
@@ -58,9 +59,9 @@ export default function About() {
             <div class="p-4 lg:w-1/3">
               {/* <div class="h-full bg-orange-50 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative"> */}
               <img
-                src="https://im1.dineout.co.in/images/uploads/restaurant/sharpen/4/h/i/p4225-164561204962160c11721f9.jpg?tr=tr:n-xlarge"
+                src={abo}
                 alt="pic"
-                style={{ height: "550px" }}
+                style={{ height: "550px",width: "310px" }}
               />
               {/* </div> */}
             </div>
@@ -586,19 +587,19 @@ export default function About() {
       <h1 className="text-5xl font-mono mt-8 text-gray-600">Our Strength</h1>
 
       <div className=" flex text-xl font-bold text-white justify-center flex-wrap">
-        <div>
+        <div className="hover:opacity-50">
         <img src={p1} alt='' className="mx-3 h-80 w-64" />
         <p class="absolute  ml-4  bg-yellow-700  w-64 h-12">Table Booking</p>
         </div>
-        <div>
+        <div className="hover:opacity-50">
         <img src={hotel} alt='' className="mx-3 h-80 w-64"/>
         <p class="absolute   ml-4 bg-yellow-700  w-64 h-12">Good Restaurant</p>
         </div>
-        <div>
+        <div className="hover:opacity-50">
         <img src={ffood} alt='' className="mx-3 h-80 w-64 "/>
         <p class="absolute  ml-4  bg-yellow-700  w-64 h-12">Satisfy Service</p>
         </div>
-        <div >
+        <div className="hover:opacity-50">
         <img src={party} alt='' className="mx-3 h-80 w-64 "/>
         <p class="absolute  ml-4  bg-yellow-700 w-64 h-12 ">Event & Party</p>
         </div>

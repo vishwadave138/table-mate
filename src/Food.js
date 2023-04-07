@@ -134,7 +134,7 @@ const Food = () => {
   };
   return (
     <>
-    <h1 class="text-5xl italic font-bold mt-12 justify-center ">
+    <h1 class="text-5xl italic text-orange-600 font-bold my-8 justify-center ">
           Food Menu
         </h1>
     <div className="flex ">
@@ -164,7 +164,7 @@ const Food = () => {
         <button onClick={() => sweetIm("sweet")}>Sweets</button>
         <button onClick={() => dessertIm("dessert")}>Desserts</button>
       </div>
-      {/* <h1 className="text-center mt-3">Food Menu</h1> */}
+     
       <section className="container">
         <div className="row justify-content-center">
           {img.map((item, index) => {

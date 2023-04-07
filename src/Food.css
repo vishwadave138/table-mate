@@ -1,6 +1,6 @@
 .foodmenu {
     /* display: block; */
-    width: 390px;
+    width: 380px;
     font-size: 20px;
     position: sticky;
     height: 500px;
@@ -9,6 +9,7 @@
     top: 0;
     overflow: hidden;
     padding: 20px;
+    /* border-right: 2px solid orange; */
 }
 .foodmenu button{
     display: block;

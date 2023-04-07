@@ -19,7 +19,7 @@ export default function Searchbar() {
 
         <div class="w-11/12 md:w-8/12 xl:w-1/2 h-auto p-4 rounded-full bg-white flex flex-col">
           {/* <!-- First section (search bar container) --> */}
-          <section class="w-full h-10 flex items-center">
+          <section class="w-full h-5 flex items-center">
             {/* <!-- Search icon container --> */}
             <span class="w-10 h-full hidden md:flex items-center">
               <SearchIcon />
@@ -31,7 +31,7 @@ export default function Searchbar() {
               placeholder="Search Restaurant name or Area ..."
             />
             {/* <!-- Search button --> */}
-            <button class="w-28 h-full bg-blue-800 flex justify-center items-center rounded-2xl text-white font-medium">
+            <button class="w-28 h-10 bg-blue-800 flex justify-center items-center rounded-2xl text-white font-medium">
               Search
             </button>
           </section>
