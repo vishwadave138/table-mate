@@ -1,90 +1,55 @@
-import React from "react";
+import React, {createContext} from "react";
 import { useCart } from "react-use-cart";
-import { Link } from "react-router-dom";
+import ContextCart from "./ContextCart";
+import Foodimages from "./Foodimages";
+import { useNavigate } from "react-router-dom";
+// import Fill from "./Fill";
+export const CartContext= createContext();
 
 const Cart = () => {
+  
   const {
-    isEmpty,
-    totalUniqueItems,
     items,
-    totalItems,
-    cartTotal,
-    updateItemQuantity,
-    removeItem,
-    emptyCart,
-  } = useCart();
+    cartTotal
+  } = useCart(Foodimages);
+  const redirectToPayment= () => {
+    //Redirect to the python page
+    navigate("/Payment");
+  };
+  const navigate = useNavigate();
+ 
 
-  if (isEmpty) return <h1 className="text-center">your cart is Empty</h1>;
-
+//   if (isEmpty) return <h1 className="text-center">your cart is Empty</h1>;
+// console.log(cartTotal)
   return (
     <div>
-      <section className="py-4 container">
-        <div className="row justify-content-center">
-          <div className="col-12">
-            <h5>
-              Cart ({totalUniqueItems}) total Items: ({totalItems})
-            </h5>
-            <table className="table table-light table-hover m-0">
-              <tbody>
-                {items.map((item, index) => {
-                  return (
-                    <tr key={index}>
-                      <td>
-                        <img
-                          src={item.pic}
-                          style={{ height: "100px", width: "100px" }}
-                          alt=""
-                        />
-                      </td>
-                      <td>{item.name}</td>
-                      <td>₹ {item.price}/-</td>
-                      <td>Quantity ({item.quantity})</td>
-                      <td>
-                        <button
-                          onClick={() =>
-                            updateItemQuantity(item.id, item.quantity - 1)
-                          }
-                          className="btn btn-info ms-2"
-                        >
-                          -
-                        </button>
-                        <button
-                          onClick={() =>
-                            updateItemQuantity(item.id, item.quantity + 1)
-                          }
-                          className="btn btn-info ms-2"
-                        >
-                          +
-                        </button>
-                        <button
-                          onClick={() => removeItem(item.id)}
-                          className="btn btn-danger ms-2"
-                        >
-                          Remove Item
-                        </button>
-                      </td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
+      <CartContext.Provider value={Foodimages}>
+      <ContextCart/>
+      </CartContext.Provider>
+
+     
+
+      <h2 className="my-5 text-orange-500">Bill summary</h2>
+      
+     
+      <table className="table -ml-28  table-hover ">
+      {items.map((item,index)=>{
+            return(
+        <tr key={index}>
+          <td className="text-center">{item.name}</td>
+          <td>₹{item.price}/-</td>
+          <td>{item.quantity}</td>
+          <td>subtotal</td>
+        </tr>
+    
+      )
+      })}
+      </table>
+      <div className="text-right text-lg mr-44">
+            <p>Total price: ₹ {cartTotal}/-</p>
           </div>
-          <div className="col-auto ms-auto">
-            <h2>Total price: ₹ {cartTotal}</h2>
-          </div>
-          <div className="col-auto">
-            <button onClick={() => emptyCart()} className="btn btn-danger m-2">
-              Clear Cart
-            </button>
-          </div>
-        </div>
-      </section>
-      <Link
-        className="text-2xl text-black border-2 border-orange-700 no-underline"
-        to="/bill"
-      >
-        continue
-      </Link>
+
+          <button onClick={redirectToPayment} className="bg-orange-600 text-white text-xl">Payment At Restaurant</button>
     </div>
   );
 };

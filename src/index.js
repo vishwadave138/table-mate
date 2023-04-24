@@ -3,6 +3,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+// import Dashbord from './Owner/Dashbord';
+// import Login from './components/Login.components';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -11,6 +13,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    
+    {/* <Login/> */}
     {/* <Slider/> */}
   </React.StrictMode>
 );

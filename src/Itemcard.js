@@ -21,6 +21,7 @@ const Itemcard = (props) => {
           <button onClick={() => addItem(props.item)} class="btn btn-success ">
             Add Item
           </button>
+        
         </div>
       </div>
     

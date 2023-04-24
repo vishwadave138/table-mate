@@ -1,0 +1,21 @@
+.main1{
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 500px;
+    /* display: block; */
+}
+ .main1 input{
+    display: none;
+
+}
+label{
+    color: white;
+}
+.uploadimage{
+    height: 25px;
+    width: 70px;
+    background-color: grey;
+    text-align: center;
+    border-radius: 5px;
+}

@@ -11,8 +11,8 @@ export default function Searchbar() {
     <div>
       <div class=" bg-[url('./Image/serch.jpg')]  w-full h-screen flex flex-col items-center justify-center">
         <div class="mb-32">
-          <h1 className="text-7xl text-orange-200 ">Welcome</h1>
-          <h4 className="text-3xl  bg-orange-300">
+          {/* <h1 className="text-7xl text-orange-200 ">Welcome</h1> */}
+          <h4 className="text-3xl  text-white bg-orange-400">
             Book a Table at a time of your convenience{" "}
           </h4>
         </div>
@@ -31,7 +31,7 @@ export default function Searchbar() {
               placeholder="Search Restaurant name or Area ..."
             />
             {/* <!-- Search button --> */}
-            <button class="w-28 h-10 bg-blue-800 flex justify-center items-center rounded-2xl text-white font-medium">
+            <button class="w-28 h-10 bg-blue-800 ml-24 flex justify-center items-center rounded-2xl text-white font-medium">
               Search
             </button>
           </section>

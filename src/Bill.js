@@ -1,11 +1,12 @@
 import React from "react";
 // import Cart from "./Cart";
 import { useCart } from "react-use-cart";
-// import Cart from "./Cart";
+import Cart from "./Cart";
 
 const Bill = () => {
-  const {items,  cartTotal} = useCart();
-    console.log(items); 
+  const {  cartTotal} = useCart();
+    // console.log(cartTotal); 
+    
   return (
     <div className="mt-10">
       <h3>Bill Summary</h3>
@@ -27,17 +28,9 @@ const Bill = () => {
           <td>Quantity</td>
           <td>Subtotal</td>
         </tr>
-        {items.map((item,index)=>{
-            return(
-        <tr key={index}>
-          <td>{item.name}</td>
-          <td>{item.Price}</td>
-          <td>{item.quantity}</td>
-          <td>Subtotal</td>
-        </tr>
-        )
-      })}
+       
     
+     <Cart/>
       </div>
 
       <div className="col-auto text-end mr-28 ms-auto">

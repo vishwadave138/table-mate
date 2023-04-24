@@ -2,29 +2,20 @@ import React from "react";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import CallIcon from "@mui/icons-material/Call";
-import Restaurant1 from "./Image/Restaurant1.jpg";
-import restaurantable1 from "./Image/restaurantable1.jpg";
-import restaurantfood1 from "./Image/restaurantfood1.jpg";
-import restaurantfood2 from "./Image/restaurantfood2.jpg";
+import Restaurant1 from "../Image/Restaurant1.jpg";
+import restaurantable1 from "../Image/restaurantable1.jpg";
+import restaurantfood1 from "../Image/restaurantfood1.jpg";
+import restaurantfood2 from "../Image/restaurantfood2.jpg";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 
-export default function Mango() {
-  const navigate = useNavigate();
-  const redirectToFill = () => {
-    //Redirect to the python page
-    navigate("/Fill");
-  };
-  const handleOnClick = () => {
-    //Redirect to the python page
-    navigate("/Gallerym");
-  };
 
+export default function Owner1() {
   return (
     <div>
+      
       <div>
       <section class="text-gray-600 body-font overflow-hidden ">
-        <div class=" px-5 py-16 mx-auto">
+        <div class=" px-5 py-16 mx-auto ">
           <section class="text-gray-600 body-font">
             <div class="container px-5 pb-3 mx-auto flex flex-wrap">
               <div class="flex flex-wrap md:-m-2 -m-1">
@@ -38,7 +29,7 @@ export default function Mango() {
                   </div>
                 </div>
 
-                <div onClick={handleOnClick} class="flex flex-wrap w-1/3 ">
+                <div class="flex flex-wrap w-1/3 ">
                   <div class="md:p-2 p-1 w-full opacity-50">
                     <img
                       alt="gallery"
@@ -155,12 +146,6 @@ export default function Mango() {
                 </font>{" "}
                 099647 86460
               </p>
-              <button
-                onClick={redirectToFill}
-                class="flex w-36 text-white bg-orange-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600  rounded"
-              >
-                Book A Table
-              </button>
             </div>
           </div>
         </div>
@@ -174,23 +159,12 @@ export default function Mango() {
             Overview
           </Link>
           <Link
-            to="/fill"
-            className="text-orange-800 no-underline hover:text-blue-600 focus:text-blue-600 active:text-blue-600"
-          >
-            Book A Table
-          </Link>
-          <Link
             to="/gallerym"
             className="text-orange-800 no-underline hover:text-blue-600 focus:text-blue-600 active:text-blue-600"
           >
             Gallery
           </Link>
-          <Link
-            to="/foodmenu"
-            className="text-orange-800 no-underline hover:text-blue-600 focus:text-blue-600 active:text-blue-600"
-          >
-            Menu
-          </Link>
+          
         </div>
       </div>
       </div>
