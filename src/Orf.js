@@ -275,7 +275,7 @@ class FormComponent extends React.Component {
             <div>IFSC Code: {this.state.ifscCode}</div>
           </div>
         ) : (
-          <form onSubmit={this.handleSubmit}>
+          <form onSubmit={this.handleSubmit} className="ragister">
             <input
               type="text"
               placeholder="Restaurant Name"

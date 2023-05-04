@@ -1,4 +1,4 @@
-.foodmenu {
+.menu {
     /* display: block; */
     width: 350px;
     font-size: 20px;
@@ -11,27 +11,25 @@
     padding: 20px;
     /* border-right: 2px solid orange; */
 }
-.foodmenu button{
+.menu button{
     display: block;
     padding: 2px 4px 2px 12px;
     width: 380px;
     text-align: left;
 }
-.foodmenu :hover {
+.menu :hover {
     background-color: rgb(159, 195, 245);
     color: rgb(90, 60, 5);
     border-left: 6px solid sienna;
     /* width: 390px; */
 }
-.foodmenu :active{
+.menu :active{
     background-color: bisque;
     border-left: 6px solid sienna;
 
 }
-.foodmenu :focus{
+.menu :focus{
     background-color: bisque;
     border-left: 6px solid sienna;
 
 }
-
-

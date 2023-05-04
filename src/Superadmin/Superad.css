@@ -3,7 +3,7 @@
     padding:0;
     text-decoration: none;
 }
-.container{
+.container1{
     display:flex;
     margin-left: -10px;
     
@@ -16,14 +16,14 @@ main{
     background: rgb(247, 157, 68);
     color: black;
     height: 100vh;
-    width: 300px;
+    width: 200px;
     transition: all 0.5s;
 }
 .top_section{
     display: flex;
     align-items:center;
     padding:20px 15px;
-    width: 300px;
+   
 }
 .logo{
     font-size: 30px;
@@ -33,7 +33,7 @@ main{
     font-size: 25px;
     margin-left: 50px;
 }
-.link{
+.container1.link{
     display: flex;
     color: black;
     padding: 10px 15px;
@@ -41,12 +41,12 @@ main{
     transition: all 0.5s;
     text-decoration: none;
 }
-.link:hover{
+.container1.link:hover{
     background:lightskyblue;
     color: #000;
     transition: all 0.5s;
 }
-.active{
+.container1.active{
     background: lightskyblue;
     color: orange;
 }

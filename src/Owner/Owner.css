@@ -3,7 +3,7 @@
     padding:0;
     text-decoration: none;
 }
-.container{
+.container1{
     display:flex;
     margin-left: -10px;
 }
@@ -31,7 +31,7 @@
     font-size: 25px;
     margin-left: 50px;
 }
-.link{
+.container1 .link{
     display: flex;
     color: black;
     padding: 10px 15px;
@@ -39,12 +39,12 @@
     transition: all 0.5s;
     text-decoration: none;
 }
-.link:hover{
+.container1 .link:hover{
     background:lightskyblue;
     color: #000;
     transition: all 0.5s;
 }
-.active{
+.container1 .active{
     background: lightskyblue;
     color: orange;
 }

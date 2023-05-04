@@ -21,20 +21,22 @@ import Dashbord from "./Owner/Dashbord";
 import Sidebar from "./Owner/Sidebar";
 import Owner1 from "./Owner/Owner1";
 import Booking from "./Owner/Booking";
-import Pay from "./Owner/Pay";
+import Addup from "./Owner/Addup";
+import Feedback from "./Owner/Feedback";
 import SAPost from "./Owner/SAPost";
 // import Superad from "./Superadmin/Superad";
 import Rdetails from "./Superadmin/Rdetails";
 import Udetails from "./Superadmin/Udetails";
 import Rrequest from "./Superadmin/Rrequest";
 
-// import Ownerpage from "./Owner/Ownerpage";
+import Menu from "./Owner/Menu";
 
 // import { Link } from "react-router-dom";
 import Login from "./components/Login.components";
-import Food from "./Food";
-import Cart from "./Cart";
-// import SignUp from './components/Signup.components'
+import Message from "./Message";
+// import Food from "./Food";
+// import Cart from "./Cart";
+import SignUp from './components/Signup.components'
 
 
 // import ContextCart from "./ContextCart"
@@ -62,6 +64,7 @@ function App() {
           <Route path="/mango" element={<Mango />} />
           <Route path="/foodmenu" element={<Foodmenu />} />
           <Route path="/gallerym" element={<Gallerym />} />
+          <Route path="/message" element={<Message />} />
           <Route path="/slider" element={<Slider />} />
           <Route path="/table" element={<Table />} />
           <Route path="/payment" element={<Payment />} />
@@ -71,12 +74,15 @@ function App() {
           <Route path="/owner1" element={<Owner1/>} />
           <Route path="/foodmenu" element={<Foodmenu />} />
           <Route path="/booking" element={<Booking/>} />
-          <Route path="/pay" element={<Pay />} />
+          <Route path="/menu" element={<Menu/>} />
+          <Route path="/addup" element={<Addup/>} />
+          <Route path="/feedback" element={<Feedback />} />
           <Route path="/sapost" element={<SAPost/>} />
           <Route path="/rdetails" element={<Rdetails />} />
           <Route path="/udetails" element={<Udetails />} />
           <Route path="/rrequest" element={<Rrequest />} />
           <Route path="/login" element={<Login/>} />
+          <Route path="/signup" element={<SignUp/>} />
           {/* <Route path="/ownerpage" element={<Ownerpage />} /> */}
        
           

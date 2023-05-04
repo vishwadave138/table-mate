@@ -586,7 +586,7 @@ export default function About() {
       <h5 className="text-3xl font-bold mt-4 text-amber-700">WHY CHOOSE US</h5>
       <h1 className="text-5xl font-mono mt-8 text-gray-600">Our Strength</h1>
 
-      <div className=" flex text-xl font-bold text-white justify-center flex-wrap">
+      <div className=" flex text-xl font-bold text-white justify-center flex-wrap mb-5">
         <div className="hover:opacity-50">
         <img src={p1} alt='' className="mx-3 h-80 w-64" />
         <p class="absolute  ml-4  bg-yellow-700  w-64 h-12">Table Booking</p>

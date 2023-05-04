@@ -1,0 +1,20 @@
+.contact{
+    display: flex;
+}
+.con1{
+    
+    background-color: rgb(249, 230, 194);
+    height: 500px;
+    width: 600px;
+    margin-top: 80px;
+    margin-left: 50px;
+    border: 3px solid rgb(250, 212, 142);
+}
+
+.form{
+    background-color: rgb(249, 230, 194);
+    height: 500px;
+    width: 500px;
+    margin-top: 80px;
+   border: 3px solid rgb(250, 212, 142);
+}

@@ -1,11 +1,20 @@
 
-import React, { Component } from 'react'
-export default class Login extends Component {
-  render() {
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
+export default function Login () {
+
+  const handleOnClick = () => {
+    navigate("/signup")
+  }
+  const navigate = useNavigate();
+ 
+
+    
     return (
-      <form className='jistify-center'>
-        <h3>Sign In</h3>
-        <div className="mb-3 ml-80 ">
+      <div>
+      <form className='shadow-xl shadow-orange-100 rounded-lg w-96 ml-96'>
+        <h3 className='text-orange-500'>Sign In</h3>
+        <div className="mb-3 ml-8 w-80">
           <label className=''>Email address</label>
           <input
             type="email"
@@ -13,7 +22,7 @@ export default class Login extends Component {
             placeholder="Enter email"
           />
         </div>
-        <div className="mb-3 ml-80">
+        <div className="mb-3 ml-8 w-80">
           <label>Password</label>
           <input
             type="password"
@@ -34,14 +43,15 @@ export default class Login extends Component {
           </div>
         </div>
         <div className="d-grid justify-center">
-          <button type="submit" className="border-2 border-blue-800 bg-blue-800 w-20 rounded-lg ">
+          <button type="submit" className="border-2 text-white hover:bg-blue-500 bg-orange-500 w-20 rounded-lg ">
             Submit
           </button>
         </div>
         <p className="forgot-password text-center">
-          Forgot <a href="#">password?</a>
+          Forgot <font className='text-blue-600'>password?</font>
         </p>
+        <p>Create New Account? <font className='text-blue-600 cursor-pointer' onClick={handleOnClick} > Sign Up</font></p>
       </form>
+      </div>
     )
   }
-}

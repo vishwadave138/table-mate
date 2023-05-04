@@ -4,7 +4,6 @@ import {
   FaTh,
   FaBars,
   FaUserAlt,
-  FaRegChartBar,
 } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
@@ -25,15 +24,15 @@ const Superad = ({ children }) => {
     {
       path: "/udetails",
       name: "Users Details",
-      icon: <FaRegChartBar />,
+      icon: <FaUserAlt />,
     },
     
   ];
   return (
-    <div className="container">
-      <div style={{ width: isOpen ? "200px" : "50px" }} className="sidebar">
+    <div className="container1">
+      <div style={{ width: isOpen ? "330px" : "50px" }} className="sidebar">
         <div className="top_section">
-          <div style={{ marginLeft: isOpen ? "50px" : "0px" }} className="bars">
+          <div style={{ marginLeft: isOpen ? "80px" : "0px" }} className="bars">
             <FaBars onClick={toggle} />
           </div>
         </div>

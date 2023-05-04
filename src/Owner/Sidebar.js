@@ -1,11 +1,16 @@
 import React, { useState } from "react";
 import './Owner.css'
 import {
-  FaTh,
+  // FaTh,
   FaBars,
   FaUserAlt,
-  FaRegChartBar,
-  FaCommentAlt,
+  FaCookieBite,
+  FaIdBadge,
+  FaMailBulk,
+  FaLocationArrow,
+  FaPlus,
+  // FaRegChartBar,
+  // FaCommentAlt,
 } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
@@ -16,34 +21,39 @@ const Sidebar = ({ children }) => {
     {
       path: "/owner1",
       name: "Owner1",
-      icon: <FaTh />,
-    },
-    {
-      path: "/foodmenu",
-      name: "Menu",
       icon: <FaUserAlt />,
     },
     {
-      path: "/booking",
-      name: "Booking",
-      icon: <FaRegChartBar />,
+      path: "/menu",
+      name: "Menu",
+      icon: <FaCookieBite />,
     },
     {
-      path: "/pay",
-      name: "Payment History",
-      icon: <FaCommentAlt />,
+      path: "/booking",
+      name: "View Booking",
+      icon: <FaIdBadge />,
+    },
+    {
+      path: "/feedback",
+      name: "Feedback",
+      icon: <FaMailBulk />,
     },
     {
       path: "/sapost",
       name: "Post Blog or Image",
-      icon: <FaCommentAlt />,
+      icon: <FaLocationArrow />,
+    },
+    {
+      path: "/addup",
+      name: "Add or Update Menu",
+      icon: <FaPlus />,
     },
   ];
   return (
-    <div className="container">
-      <div style={{ width: isOpen ? "200px" : "50px" }} className="sidebar">
+    <div className="container1">
+      <div style={{ width: isOpen ? "330px" : "50px" }} className="sidebar">
         <div className="top_section">
-          <div style={{ marginLeft: isOpen ? "50px" : "0px" }} className="bars">
+          <div style={{ marginLeft: isOpen ? "80px" : "0px" }} className="bars">
             <FaBars onClick={toggle} />
           </div>
         </div>

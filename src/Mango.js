@@ -191,6 +191,12 @@ export default function Mango() {
           >
             Menu
           </Link>
+          <Link
+            to="/message"
+            className="text-orange-800 no-underline hover:text-blue-600 focus:text-blue-600 active:text-blue-600"
+          >
+            Feedback
+          </Link>
         </div>
       </div>
       </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import logo from "./Image/logo.png";
+import logo2 from "./Image/logo2.png";
 
 export default function Footer() {
   return (
@@ -9,7 +9,7 @@ export default function Footer() {
         <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <p class="flex title-font font-medium items-center md:justify-start justify-center text-white ">
-              <img class="h-20 w-32" src={logo} alt=''/>
+              <img class="h-20 w-32" src={logo2} alt=''/>
             </p>
           </div>
           <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">

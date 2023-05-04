@@ -31,16 +31,16 @@ body {
     padding-bottom: 15px;
   }
   
-  input[type="tel"],
-  input[type="email"],
-  input[type="password"],
-  input[type="text"] {
+  .register input[type="tel"],
+  .register input[type="email"],
+  .register input[type="password"],
+  .register input[type="text"] {
     width: 500px;
 
     
   }
   
-  input,
+  .register input,
   button {
     padding: 10px;
     margin: 5px;

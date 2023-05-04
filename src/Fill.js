@@ -122,13 +122,13 @@ const Fill = (props) => {
         </div>
       </div>
        
-       <div className=''>
-      <div className="mb-4">
-        <label htmlFor="date" className="block mb-2 font-semibold text-black">
+       <div className='flex'>
+      <div className="mb-4 ">
+        <label htmlFor="date" className="block mb-2  font-semibold text-black">
           Date:
         </label>
         <div className='flex  justify-center '>
-           <div className='mr-12'>
+           <div className='mr-8 '>
            <DatePicker selected={selectedDate} 
       onChange={date => setSelectedDate(date)}
       dateFormat="dd/MM/yyyy"
@@ -137,7 +137,7 @@ const Fill = (props) => {
       
       // value={date}
       isClearable
-      className=' ml-10 py-2 border border-gray-400 rounded-md'
+      className='w-60  py-2 border border-gray-400 rounded-md'
       showYearDropdown
       scrollableMonthYearDropdown
       />
@@ -155,7 +155,7 @@ const Fill = (props) => {
           value={time}
           onChange={(e) => setTime(e.target.value)}
           required
-          className="w-96 px-4 py-2 border border-gray-400 rounded-md"
+          className="w-60 px-4 py-2 border border-gray-400 rounded-md"
         />
       </div>
       </div>

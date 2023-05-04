@@ -138,13 +138,14 @@ export default function Foodmenu() {
   
   return (
     <div>
-      <div class=" ">
-        <h1 class="text-3xl italic  mt-4 text-center ml-20 ">
+      <div >
+        <h1 className="text-3xl italic  mt-4 text-center ml-20 ">
           Food Menu
         </h1>
       </div>
+     
 
-      <div class="flex justify-between mt-4">
+      <div className="flex justify-between mt-4">
         <div className="foodmenu">
           <button onClick={allItem}>All</button>
           <button onClick={() => startersIm("starter")}>Starters</button>
@@ -175,7 +176,7 @@ export default function Foodmenu() {
 
       
       
-        <div class="grid gap-2 grid-cols-5 grid-rows-3 ">
+        <div className="grid gap-2 grid-cols-5 grid-rows-3 ">
           {img.map((value) => {
             return (
               <div
@@ -185,12 +186,12 @@ export default function Foodmenu() {
                 <img
                   src={value.pic}
                   alt=" "
-                  class="h-28 w-32 rounded-2xl ml-3.5 mt-2"
+                  className="h-28 w-32 rounded-2xl ml-3.5 mt-2"
                 />
                 <div className="-space-y-0.5">
-                  <h1 class="text-lg font-bold">{value.name}</h1>
+                  <h1 className="text-lg font-bold">{value.name}</h1>
                   {/* <p class="text-xs">{value.decrip}</p> */}
-                  <h3 class="text-lg font-bold">₹ {value.price}/-</h3>
+                  <h3 className="text-lg font-bold">₹ {value.price}/-</h3>
                 </div>
               </div>
             );
